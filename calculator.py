@@ -4,16 +4,21 @@ def multiply():
 
 
 def divide():
-    pass
+    first = int(input('enter the first digit: '))
+    second = int(input('enter the second digit: '))
 
 
 def plus():
-    pass
-
+    first = int(input('enter the first digit: '))
+    second = int(input('enter the second digit: '))
+    summ = first + second
+    return summ
 
 def minus():
-    pass
-
+    first = int(input('enter the first digit: '))
+    second = int(input('enter the second digit: '))
+    summ = first - second
+    return summ
 
 def calculate():
     pass
